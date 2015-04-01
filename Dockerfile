@@ -12,4 +12,4 @@ WORKDIR /hugo
 
 ENV URL http://ponychat.horse
 
-CMD hugo server -b=$URL -p=80
+CMD hugo server -p 80 -b=$URL
