@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<div class="container">
+	<pre>
+####                       ##   #              #
+#   #   ###   ###   #  #  #  #  #       ###    #
+####   #   #  #  #  #  #  #     ####       #  ###
+#      #   #  #  #   ###  #     #   #   ####   #
+#      #   #  #  #     #  #  #  #   #  #   #   #
+#       ###   #  #     #   ##   #   #   ####   ##
+		    ###
+			      http://ponychat.net
+	</pre>
+
+		<h2>Our Blog</h2>
+
+		{{ range .Data.Pages.GroupBy "Section" }}
+		<h3>{{ .Key }}</h3>
+		{{ if eq .Key "blog" }}
+			{{ range .Pages }}
+			<div>
+				<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+				<span class="lead">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+				<p>{{ .Summary }}</p>
+			</div>
+			{{ end }}
+
+			{{ partial "container-footer.html" . }}
+		{{ end }}
+		{{ end }}
+</div>
+
+{{ partial "footer.html" . }}

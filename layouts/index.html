@@ -1,44 +1,41 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 
-    <div class="container">
-<pre>
+<div class="container">
+	<pre>
 ####                       ##   #              #
 #   #   ###   ###   #  #  #  #  #       ###    #
 ####   #   #  #  #  #  #  #     ####       #  ###
 #      #   #  #  #   ###  #     #   #   ####   #
 #      #   #  #  #     #  #  #  #   #  #   #   #
 #       ###   #  #     #   ##   #   #   ####   ##
-                    ###
-                            http://ponychat.horse
-</pre>
+		    ###
+			      http://ponychat.net
+	</pre>
 
-<h2>Welcome, everypony, to the PonyChat Network!</h2>
-
-<table><tr>
-<td>
-<h3>Who are we?</h3>
-<p>We are a bunch of ponies stuck inside the internet oh god help us please someone D:</p>
-</td>
-<td>
-<address>
-  <strong>Full Name</strong><br>
-  <a href="mailto:#"><img src="/img/emailme.gif">staff@ponychat.net</a>
-</address>
-</td>
-</tr></table>
-
-<h2>Our Blog</h2>
-
-        {{ range .Data.Pages }}
-        <div>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <span class="lead">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-            <p>{{ .Summary }}</p>
-        </div>
-        {{ end }}
-
-        {{ partial "container-footer.html" . }}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome, everypony, to the PonyChat Network!</h1>
+        <p>We are an IRC network dedicated to the community behind the television show My Little Pony: Friendship is Magic. We have been in service for 4 years and plan to be around for many more to come.</p>
+        <p><a class="btn btn-primary btn-lg" href="http://webchat.ponychat.net" role="button">Chat Now</a> (requires flash)</p>
+      </div>
     </div>
+
+		<h2>Our Blog</h2>
+                {{ range .Data.Pages.GroupBy "Section" }}
+                {{ if eq .Key "blog" }}
+                        {{ range .Pages }}
+                        <div>
+                                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                <span class="lead">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+                                <p>{{ .Summary }}</p>
+                        </div>
+                        {{ end }}
+ 
+                        {{ partial "container-footer.html" . }}
+                {{ end }}
+                {{ end }}
+</div>
 
 {{ partial "footer.html" . }}
