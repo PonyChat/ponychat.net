@@ -32,7 +32,7 @@ table td {
 	box-shadow: 3px 3px 4px #CCC;
 	-ms-filter: "progid: DXImageTransform.Microsoft.Shadow(Strength=4,  Direction=135,  Color='#CCCCCC')";
 	padding: 10px;
-	height: 80px;
+	height: 100px;
 	margin: 20px auto;
 }
 .staff-box a {
@@ -44,4 +44,9 @@ table td {
 	float: left;
 	margin: 0px 10px 0px 0px;
 	border:1px solid #AAA;
+}
+
+h3 {
+	padding-top: 60px;
+	margin-top: -60px;
 }

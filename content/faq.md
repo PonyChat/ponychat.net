@@ -226,7 +226,48 @@ date = "2015-04-11T06:55:25-07:00"
 <p>If you are not sending messages which have formatting applied, and services are still giving you this output, please contact an operator in #help.</p>
 
 <a name="channel-modes"></a><h3>How do I use channel owner/admin mode? (~/!)</h3>
-PonyChat has recently enabled support for owner and admin mode. To use this a channel founder (`+F` in ChanServ) must set flag `+q` on anyone who should have the channel owner flag (`~`) and `+a` for anyone who should have the channel admin flag (`!`).
+PonyChat has recently enabled support for owner and admin mode. To use this 
+a channel founder (`+F` in ChanServ) must set flag `+q` on anyone who should 
+have the channel owner flag (`~`) and `+a` for anyone who should have the 
+channel admin flag (`!`).
+
+#### To use founder mode
+
+If you are a channel founder for a channel in ChanServ, you can give yourself 
+or another person denoted founder on a channel as following:
+
+```
+/msg ChanServ FLAGS #channel <Person> +qO
+```
+
+For an example:
+
+```
+/msg ChanServ FLAGS #help Xena +qO
+```
+
+Once you have founder mode in a channel, you can give other people it using the 
+FLAGS command above, or manually give it out using `/mode #channel +y Person`.
+
+#### To use admin mode
+
+If you are a channel founder for a channel in ChanServ, you can give yourself 
+or another person denoted admin on a channel as following:
+
+```
+/msg ChanServ FLAGS #channel <Person> +aO
+```
+
+For an example:
+
+```
+/msg ChanServ FLAGS #help Xena +aO
+```
+
+Once you have admin or founder mode in a channel, you can give other people it 
+using the FLAGS command above, or manually give it out using `/mode #channel +a 
+Person`.
+
 
 <a name="botserv"></a><h3>How do I replace ChanServ with one of those bots I see everywhere?</h3><p>We offer several BotServ bots which can act as a replacement for ChanServ in your channel. These bots are still part of network services, and therefore support the same commands and features as ChanServ, with the addition of the <code>SAY</code> and <code>ACT</code> commands.</p>
 
