@@ -3,8 +3,6 @@ date = "2014-05-11T07:38:45-07:00"
 title = "Time Moves On and Things Change Forever"
 +++
 
-#### Cassy
-
 With a degree of sadness we must announce the discontinuation of three of our 
 servers. Rainbowdash, Rarity, and Twilightsparkle. They were our original 
 servers and the ones PonyIRC were founded on and which evolved into the 
@@ -32,3 +30,5 @@ feature. We hope to have this resolved soon if possible.
 
 From all of the staff we thank you for making PonyChat possible, for being 
 awesome users, and for continuing to trust in us!
+
+By Cassy

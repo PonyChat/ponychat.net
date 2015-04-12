@@ -3,8 +3,6 @@ date = "2014-09-20T07:38:45-07:00"
 title = "Happy anniversary, PonyChat"
 +++
 
-#### bicyclerepairman
-
 This month marks the third anniversary of PonyChat. Three years ago two small 
 groups of fans decided that it was time for a dedicated network for My Little 
 Pony to be built that catered to fans of all kinds. In the beginning, both 
@@ -25,3 +23,5 @@ From all the staff at PonyChat we thank you for sharing this journey with us,
 for sharing your good times and your bad, for showing us the pinnacle of talent 
 and the depth of your friendship. We would not be here today if not for all of 
 you.
+
+By bicyclerepairman

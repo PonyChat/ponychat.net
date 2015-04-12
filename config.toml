@@ -1,4 +1,4 @@
 baseurl = "http://ponychat.horse/"
 languageCode = "en-us"
-title = "PonyChat Information"
-theme = "ponychat"
+title = "PonyChat"
+theme = "hugo-bootswatch"
