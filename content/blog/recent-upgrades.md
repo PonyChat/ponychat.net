@@ -88,6 +88,8 @@ Person`.
 
 Our Tor gateway is back! It is now connected to an internal hub server directly 
 and now changes your vhost to reflect that you are using the Tor service.
+For now the address for the hidden service is `dkkip7bcgrmjr2hg.onion`. Below 
+I have pasted a brief usage tutorial out of my personal wiki.
 
 #### Usage in Weechat
 

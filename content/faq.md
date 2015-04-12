@@ -359,7 +359,14 @@ Person`.
 <p>at any time to access the help files hosted by network services, or you may contact network staff in #help.</p>
 <a name="anonymous"></a><h3>Can I connect with TOR or other anonymizers?</h3><p>You may not connect to PonyChat open proxies or most other anonymization schemes, as these are subject to extremely high amounts of abuse. <em>Private</em> proxies are allowed under most circumstances.</p>
 
-<p>For TOR users, we offer a multi-homed hidden service. Our hidden service address is <a href="irc://oabfdwrgyjxo7zn7.onion/" title="PonyChat TOR Hidden Service">oabfdwrgyjxo7zn7.onion</a>. It may be reached on any of the standard ports, including via SSL. <strong>In order to connect to the TOR hidden service, you <em>must</em> authenticate using SASL.</strong> For information on how to do this, please consult your IRC client's documentation. Users without a <a href="#vhost">vanity host name</a> will appear as connecting from "tor.sasl.user".</p>
+<p>For TOR users, we offer a location-hidden service. Our hidden service
+address is <a href="irc://dkkip7bcgrmjr2hg.onion/" title="PonyChat TOR Hidden 
+Service">dkkip7bcgrmjr2hg.onion</a>. It may be reached on any of the standard 
+ports, including via SSL. <strong>In order to connect to the TOR hidden 
+service, you <em>must</em> authenticate using SASL.</strong> For information on 
+how to do this, please consult your IRC client's documentation. Users without 
+a <a href="#vhost">vanity host name</a> will appear as connecting from a cloak 
+made up of hashes involving your account name.</p>
 
 <p>Connections from TOR exit nodes will not be accepted under any circumstances.</p>
 
