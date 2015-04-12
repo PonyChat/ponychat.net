@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM nginx
 
 ADD https://github.com/spf13/hugo/releases/download/v0.13/hugo_0.13_amd64.deb /hugo.deb
 
@@ -10,6 +10,4 @@ EXPOSE 80
 
 WORKDIR /hugo
 
-ENV URL http://ponychat.net
-
-CMD hugo server -p 80 -b=$URL
+RUN hugo -d /usr/share/nginx/html

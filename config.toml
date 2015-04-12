@@ -1,4 +1,3 @@
-baseurl = "http://ponychat.horse/"
 languageCode = "en-us"
 title = "PonyChat"
 theme = "hugo-bootswatch"
