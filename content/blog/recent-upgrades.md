@@ -3,8 +3,6 @@ date = "2015-04-11T20:10:56-07:00"
 title = "Recent Upgrades to PonyChat"
 +++
 
-#### Xena
-
 Hello all,
 
 Lots of things have been changing over here at PonyChat HQ and here is the 
