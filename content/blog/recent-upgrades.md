@@ -17,6 +17,8 @@ site generator named [Hugo](http://gohugo.io). We don't use a lot of advanced
 features in it yet, but we plan to be poking at it and making this site a lot 
 better as time goes on.
 
+{{< alert body="We are aware that the changeover to this new site has caused features to be lost. We are working on a way to get them back. Please have patience and we will get this done as smoothly and quickly as possible!" >}}
+
 ## New Servers
 
 As I'm sure you all have noticed, our longtime nodes fluttershy, applejack and 
