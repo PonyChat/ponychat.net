@@ -10,6 +10,6 @@ EXPOSE 80
 
 WORKDIR /hugo
 
-ENV URL http://ponychat.horse
+ENV URL http://ponychat.net
 
 CMD hugo server -p 80 -b=$URL
