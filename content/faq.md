@@ -14,7 +14,7 @@ date = "2015-04-11T06:55:25-07:00"
         <p><a href="#enforce">How do I prevent others from using my nick?</a></p>
         <p><a href="#vhost">I want one of those vanity host names. How do I get one?</a></p>
         <p><a href="#color-in-commands">Services keep telling me commands are unrecognized, and in-channel commands don't work. What's wrong?</a></p>
-        <p><a href="#channel-modes">What happened to channel owners and admins (~/&amp;)?</a></p>
+        <p><a href="#channel-modes">How do I use channel owner/admin mode? (~/!)</a></p>
         <p><a href="#botserv">How do I replace ChanServ with one of those bots I see everywhere?</a></p>
         <p><a href="#auto-identify">What identification methods do network services support?</a></p>
         <p><a href="#gameserv">How do I enable GameServ?</a></p>
@@ -225,7 +225,7 @@ date = "2015-04-11T06:55:25-07:00"
 
 <p>If you are not sending messages which have formatting applied, and services are still giving you this output, please contact an operator in #help.</p>
 
-<a name="channel-modes"></a><h3>How do I use channel owner/admin mode? (~/!)?</h3>
+<a name="channel-modes"></a><h3>How do I use channel owner/admin mode? (~/!)</h3>
 PonyChat has recently enabled support for owner and admin mode. To use this a channel founder (`+F` in ChanServ) must set flag `+q` on anyone who should have the channel owner flag (`~`) and `+a` for anyone who should have the channel admin flag (`!`).
 
 <a name="botserv"></a><h3>How do I replace ChanServ with one of those bots I see everywhere?</h3><p>We offer several BotServ bots which can act as a replacement for ChanServ in your channel. These bots are still part of network services, and therefore support the same commands and features as ChanServ, with the addition of the <code>SAY</code> and <code>ACT</code> commands.</p>
