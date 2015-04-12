@@ -10,6 +10,13 @@ promised post explaining everything we have changed.
 
 <!--more-->
 
+## New Site
+
+As you can see, we have done a complete overhaul of our website using a static 
+site generator named [Hugo](http://gohugo.io). We don't use a lot of advanced 
+features in it yet, but we plan to be poking at it and making this site a lot 
+better as time goes on.
+
 ## New Servers
 
 As I'm sure you all have noticed, our longtime nodes fluttershy, applejack and 
