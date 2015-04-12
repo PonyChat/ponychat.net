@@ -31,8 +31,7 @@ table td {
 	-webkit-box-shadow: 3px 3px 4px #CCC;
 	box-shadow: 3px 3px 4px #CCC;
 	-ms-filter: "progid: DXImageTransform.Microsoft.Shadow(Strength=4,  Direction=135,  Color='#CCCCCC')";
-	padding: 10px;
-	height: 100px;
+	height: 82px;
 	margin: 20px auto;
 }
 .staff-box a {
@@ -43,7 +42,8 @@ table td {
 	height: 80px;
 	float: left;
 	margin: 0px 10px 0px 0px;
-	border:1px solid #AAA;
+	border-right:1px solid #AAA;
+	border-radius: 10px 0px 0px 10px;
 }
 
 h3 {
