@@ -397,5 +397,4 @@ We have a small tutorial written up on how to access PonyChat via TOR
 
 <p>For more information, please see <code>/msg ChanServ HELP SET KEEPTOPIC</code> and <code>/msg ChanServ HELP SET TOPICLOCK</code>.</p>
         </div>
-           </div>
 
