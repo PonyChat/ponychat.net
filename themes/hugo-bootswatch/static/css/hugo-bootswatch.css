@@ -1,8 +1,7 @@
 body{
     padding-top:50px;
-}
-footer{
-    padding-top:50px;
+    background-image: url("/img/background.png");
+    background-position: center;
 }
 
 table {
@@ -51,8 +50,21 @@ h3 {
 	margin-top: -60px;
 }
 
+.widther {
+	max-width: 850px;
+	margin: auto;
+	position: relative;
+}
+
 .container {
 	max-width: 850px;
 	margin: auto;
 	position: relative;
+	background-color: white;
+}
+
+.jumbotron {
+	background-image: url("/img/jumbotron.png");
+	background-position: center;
+	color: white;
 }
