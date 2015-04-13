@@ -67,5 +67,6 @@ h3 {
 .jumbotron {
 	background-image: url("/img/jumbotron.png");
 	background-position: center;
+	background-attachment: fixed;
 	color: white;
 }

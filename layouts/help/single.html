@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+    <div id="toc" class="well col-md-4 col-sm-6">
+    {{ .TableOfContents }}
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+{{ partial "footer.html" . }}
