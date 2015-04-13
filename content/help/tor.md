@@ -1,13 +1,14 @@
 +++
 title = "Tor Access"
 date = "2015-04-12T20:10:56-07:00"
+type = "help"
 +++
 
 Our Tor gateway is back! It is now connected to an internal hub server directly
 and now changes your vhost to reflect that you are using the Tor service.
 For now the address for the hidden service is `dkkip7bcgrmjr2hg.onion`.
 
-#### Usage in Weechat
+# Usage in Weechat
 
 Thanks much to the anonymous user who wrote [this
 guide](http://pastebin.com/k8XHaABN), which I adapted into this tutorial.
@@ -68,7 +69,7 @@ a little extra work, but there are many tutorials available for connecting to
 Freenode over Tor that can be easily adapted for PonyChat. However, it
 generally is the same process as above.
 
-#### Technical Information
+# Technical Information
 
 On connection to PonyChat over tor, a new service named Zuul will greet you
 with all of the information it knows about you.
@@ -103,7 +104,7 @@ The hashed cloak that is generated will be made up like this:
 tor/registered/<hash of account name>
 ```
 
-#### Channel Moderation Information
+# Channel Moderation Information
 
 If a channel wishes to ban all tor users they may do so in one of a few ways:
 
