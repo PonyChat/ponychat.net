@@ -370,7 +370,13 @@ made up of hashes involving your account name.</p>
 
 <p>Connections from TOR exit nodes will not be accepted under any circumstances.</p>
 
-<p><em>At this time, it is not possible to register your account while using TOR. You must first connect to the IRC network through some other means to <a href="#register-nick">complete registration</a>.</em></p>
+<p><em>At this time, it is not possible to register your account while using 
+TOR. You must first connect to the IRC network through some other means to <a 
+href="#register-nick">complete registration</a>.</em></p>
+
+We have a small tutorial written up on how to access PonyChat via TOR 
+[here](/help/tor).
+
 <a name="embed"></a><h3>How do I put my PonyChat channel on my web page?</h3><p><a href="/webchat/creator/">Use our web chat embed creator by clicking here</a>.</p>
 <a name="contact"></a><h3>How can I contact PonyChat’s staff?</h3><p>You can always find PonyChat's staff in the #help channel.</p>
 
