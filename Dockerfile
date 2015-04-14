@@ -13,8 +13,6 @@ WORKDIR /hugo
 ADD https://github.com/PonyChat/webchat.ponychat.net/archive/master.tar.gz /pony.tar.gz
 RUN mkdir /tmp/extract -p && cd /tmp/extract && tar zxf /pony.tar.gz &&\
     mkdir /usr/share/nginx/html/webchat -p &&\
-    cp ./webchat.ponychat.net-master/public/* -vrf /usr/share/nginx/html/webchat &&\
-    cp /usr/share/nginx/html/webchat/css -vrf /usr/share/nginx/html &&\
-    cp /usr/share/nginx/html/webchat/config.js /usr/share/nginx/html/
+    cp ./webchat.ponychat.net-master/public/* -vrf /usr/share/nginx/html/webchat
 
 RUN hugo -d /usr/share/nginx/html
