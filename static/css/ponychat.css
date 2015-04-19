@@ -1,0 +1,30 @@
+#modes table {
+border-style:none;
+}
+#modes td {
+background-color:transparent;
+border-style:none;
+border-top:1px solid #54B4EB;
+padding: 8px 0px 8px 6px;
+}
+#modes th {
+font-size:16px;
+padding: 3px 0px 3px 6px;
+}
+#modes tbody tr:hover {
+background-color:#F8F8F8;
+}
+#modes .mode {
+color:#317EAC;
+font-weight:bold;
+}
+#modes .oper {
+color:#7FCEFE;
+font-weight:bold;
+}
+#modes p {
+font-size:16px;
+}
+#modes i {
+font-size:10px;
+}
