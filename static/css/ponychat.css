@@ -44,3 +44,6 @@ list-style-type:none;
 margin: 0.5px 5px 0.5px 7px;
 padding: 0;
 }
+#toc:empty {
+display:none;
+}
