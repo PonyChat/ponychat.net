@@ -13,7 +13,7 @@ WORKDIR /hugo
 RUN hugo -d /usr/share/nginx/html
 
 # a guard to forcibly update webchat
-ENV CACHEBUST 2015-04-20
+ENV CACHEBUST 2015-04-21
 
 ADD https://github.com/PonyChat/webchat.ponychat.net/archive/master.tar.gz /pony.tar.gz
 RUN mkdir /tmp/extract -p && cd /tmp/extract && tar zxf /pony.tar.gz &&\
