@@ -45,6 +45,7 @@ Here you will find the various channel modes we offer on Ponychat.
 <tr><td class="mode">+J</td><td>Prevent automatic rejoin on kick. Users will not be able to rejoin immediately after being kicked.</td></tr>
 <tr><td class="mode">+K</td><td>No repeat messages. Messages that are the same as the last message sent to the channel will be blocked.</td></tr>
 <tr><td class="mode">+S</td><td>SSL only channel. Only clients connected via SSL may join.</td></tr>
+<tr><td class="mode">+u</td><td>Hidden ban/quiet list. Ban/quiet lists may only be seen by halfops or higher.</td></tr>
 </tbody>
 </table>
 
@@ -65,10 +66,10 @@ Here you will find the various channel modes we offer on Ponychat.
 <tr><td class="mode">+k</td><td>Key.  Requires users to issue /join #channel KEY to join.</td><td>/mode #channel +k key</td></tr>
 <tr><td class="mode">+l</td><td>Limit.  Impose a maximum number of LIMIT people in the channel.</td><td>/mode #channel +l limit</td></tr>
 <tr><td class="mode">+v</td><td>Voice.  Allows a user to talk in a +m channel.  Noted by +nick.</td><td>/mode #channel +v nick</td></tr>
-<tr><td class="mode">+h</td><td>Halfop.  Grants channel half operator status.</td><td>/mode #channel +h nick</td></tr>
-<tr><td class="mode">+o</td><td>Op.  Grants channel operator status.</td><td>/mode #channel +o nick</td></tr>
-<tr><td class="mode">+a</td><td>Admin.  Grants channel administrator status.</td><td>/mode #channel +a nick</td></tr>
-<tr><td class="mode">+y</td><td>Owner. Grants channel owner status.</td><td>/mode #channel +y nick</td></tr>
+<tr><td class="mode">+h</td><td>Halfop.  Grants channel half operator status. Noted by %nick.</td><td>/mode #channel +h nick</td></tr>
+<tr><td class="mode">+o</td><td>Op.  Grants channel operator status. Noted by @nick.</td><td>/mode #channel +o nick</td></tr>
+<tr><td class="mode">+a</td><td>Admin.  Grants channel administrator status. Noted by !nick.</td><td>/mode #channel +a nick</td></tr>
+<tr><td class="mode">+y</td><td>Owner. Grants channel owner status. Noted by ~nick.</td><td>/mode #channel +y nick</td></tr>
 <tr><td class="mode">+b</td><td>Ban.  Prevents a user from entering the channel, and from sending or changing nick if they are on it, based on a nick!ident@host match.</td><td>/mode #channel +b nick!user@host</td></tr>
 <tr><td class="mode">+q</td><td>Quiet.  Prevents a user from sending to the channel or changing nick, based on a nick!ident@host match.</td><td>/mode #channel +q nick!user@host</td></tr>
 <tr><td class="mode">+e</td><td>Exempt.  Allows a user to join a channel and send to it even if they are banned (+b) or quieted (+q), based on a nick!ident@host match.</td><td>/mode #channel +e nick!user@host</td></tr>
