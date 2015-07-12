@@ -21,11 +21,13 @@ title = "Server Information"
 
 ## Server Locations
 
-| Server Name                 | Server Location    |
-|:--------------------------- |:------------------ |
-| `adagiodazzle.ponychat.net` | San Francisco, USA |
-| `ariablaze.ponychat.net`    | Singapore          |
-| `sonatadusk.ponychat.net`   | London, UK         |
+| Server Name                  | Server Location    |
+|:---------------------------- |:------------------ |
+| `adagiodazzle.ponychat.net`  | San Francisco, USA |
+| `ariablaze.ponychat.net`     | Singapore          |
+| `scootaloo.ponychat.net`     | Atlanta, USA       |
+| `sonatadusk.ponychat.net`    | London, UK         |
+| `sunsetshimmer.ponychat.net` | The Cloud          |
 
 ## IPv6 Support
 
