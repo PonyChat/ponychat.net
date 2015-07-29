@@ -13,6 +13,7 @@ To email staff please send an email to
 [staff@ponychat.net](mailto:staff@ponychat.net). Otherwise please click on 
 a staff member's avatar to send them an email directly.
 
+{{< staff name="Bee" email="bee@ponychat.net" body="Helps keep the servers buzzing with functionality!" avatar="/img/staff/box.png" >}}
 {{< staff name="Cassy" email="cassy@ponychat.net" body="System admin. I work alongside the others to keep the servers running and the network in tiptop shape. Also: OMG PONIES!" avatar="/img/staff/cassy.png" >}}
 {{< staff name="DJMidgetBrony" email="midgetbrony@ponychat.net" body="A founding member of Ponyville FM, DJMidgetBrony's been helping us keep things 20% cooler in 10 seconds flat!" avatar="/img/staff/box.png" >}}
 {{< staff name="klaxa" email="klaxa@ponychat.net" body="The german pony." avatar="/img/staff/klaxa.png" >}}
