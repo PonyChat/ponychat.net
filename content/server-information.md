@@ -35,3 +35,8 @@ All of our round robins and DNS entries will have IPv6 addresses added and most
 clients should select them automatically. If for some reason your IPv6 stack 
 has issues, please connect to `irc.ipv4.ponychat.net` instead of 
 `irc.ponychat.net`.
+
+## BNC
+
+PonyChat offers a bnc server `moondancer.ponychat.net` using Shout. For more 
+information, see [here](/help/bnc).
