@@ -19,6 +19,6 @@ a staff member's avatar to send them an email directly.
 {{< staff name="klaxa" email="klaxa@ponychat.net" body="The german pony." avatar="/img/staff/klaxa.png" >}}
 {{< staff name="Lyude" email="lyude@ponychat.net" body="Apparently is so awesome they don't know how awesome they are." avatar="/img/staff/lyude.jpg" >}}
 {{< staff name="MakerDusk" email="makerdusk@ponychat.net" body="One of the ponies behind the curtain keeping things politically together." avatar="/img/staff/makerdusk.jpg" >}}
-{{< staff name="Phase" email="phase@ponychat.net" body="Description unknown." avatar="/img/staff/box.jpg" >}}
+{{< staff name="Phase" email="phase@ponychat.net" body="Description unknown." avatar="/img/staff/box.png" >}}
 {{< staff name="Rylee" email="rylee@ponychat.net" body="Systems administrator and operations engineer for PonyChat. oh god how do i do this keyboards are not designed for paws" avatar="/img/staff/rylee.png" >}}
 {{< staff name="Xena" email="xena@ponychat.net" body="Xena is the maintainer of the irc daemon PonyChat uses!" avatar="/img/staff/xena.png" >}}
