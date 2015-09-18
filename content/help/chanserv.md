@@ -124,3 +124,17 @@ the reason and time left until expiration.
     /msg ChanServ AKICK #foo DEL bar
     /msg ChanServ AKICK #foo LIST
 
+## Protect a Channel
+
+If you want to protect a channel so that only people you know can enter it,
+follow these steps:
+
+1. Mark the channel as invite only:
+    /msg ChanServ SET #channel MLOCK +ispnt
+2. Add invite-except and ChanServ INVITE permissions to yourself
+    /msg ChanServ FLAGS #channel Person +Ai
+    /mode #channel +I $a:Person
+3. Repeat this for other people:
+    /msg ChanServ FLAGS #channel OtherPerson +Ai
+    /mode #channel +I $a:OtherPerson
+4. Enjoy your private channel!
