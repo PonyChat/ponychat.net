@@ -38,11 +38,24 @@ Now, create a new server:
 ```
 /server add PonyChat-Tor dkkip7bcgrmjr2hg.onion/6697
 /set irc.server.PonyChat-Tor.ssl on
-/set irc.server.PonyChat-Tor.ssl_verify off
+
 ```
 
-The second line is needed because we use our main SSL certificate for Tor
-access as well as general access.
+The problem with ssl and tor is that it's hardly possible to get a ssl certificate for a .onion domain.
+As a workaround for that there are two possible options.
+
+The first solution is disabling certificate verification with this command:
+```
+/set irc.server.PonyChat-Tor.ssl_verify off
+```
+Weechat now accepts every ssl certificates, which opens the door for man in the middle attacks.
+
+Option two is setting the fingerprint with
+```
+/set irc.server.PonyChat-Tor.ssl_fingerprint
+```
+The fingerprint is displayed when connecting to the server, so you can simply copy and paste it.
+You can also verify the fingerprint for the regular domain first.
 
 Set the proxy as Tor:
 
