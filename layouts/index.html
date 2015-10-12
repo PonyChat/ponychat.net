@@ -9,6 +9,8 @@
       <p><a class="btn btn-primary btn-lg" href="/webchat" role="button">Chat Now</a></p>
     </div>
 
+    <div id="yo-button"></div>
+
 		<h2>Our Blog</h2>
                 {{ range .Data.Pages.GroupBy "Section" }}
                 {{ if eq .Key "blog" }}
@@ -23,6 +25,18 @@
                         {{ partial "container-footer.html" . }}
                 {{ end }}
                 {{ end }}
+
+                        <script type="text/javascript">
+                          var _yoData = {
+                            "username": "PONYCHAT",
+                            "trigger": "a new blog post is published"
+                          };
+
+                          var s = document.createElement("script");
+                          s.type = "text/javascript";
+                          s.src = "//yoapp.s3.amazonaws.com/js/yo-button.js";
+                          (document.head || document.getElementsByTagName("head")[0]).appendChild(s);
+                        </script>
 </div>
 
 {{ partial "footer.html" . }}
