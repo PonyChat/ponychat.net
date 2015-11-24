@@ -377,7 +377,7 @@ href="#register-nick">complete registration</a>.</em></p>
 We have a small tutorial written up on how to access PonyChat via TOR 
 [here](/help/tor).
 
-<a name="embed"></a><h3>How do I put my PonyChat channel on my web page?</h3><p><a href="/webchat/creator/">Use our web chat embed creator by clicking here</a>.</p>
+<!-- <a name="embed"></a><h3>How do I put my PonyChat channel on my web page?</h3><p><a href="/webchat/creator/">Use our web chat embed creator by clicking here</a>.</p> -->
 <a name="contact"></a><h3>How can I contact PonyChat’s staff?</h3><p>You can always find PonyChat's staff in the #help channel.</p>
 
 <p>You may also contact PonyChat staff regarding bans, problems connecting, complains, compliments, questions, or just to say "hello" via email at <a href="mailto:staff@ponychat.net">staff@ponychat.net</a>. Emails are typically answered within 24 hours.</p>
