@@ -1,5 +1,5 @@
 +++
-date = "2016-07-309T07:38:45-07:00"
+date = "2016-07-30T07:38:45-07:00"
 title = "Hosted BNC Availability"
 +++
 
