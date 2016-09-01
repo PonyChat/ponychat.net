@@ -21,22 +21,24 @@ title = "Server Information"
 
 ## Server Locations
 
+Not all servers will be accessable through DNS. It is suggested you have your client connect to `irc.ponychat.net` to ensure access to a working server.
+
 | Server Name                  | Server Location    |
 |:---------------------------- |:------------------ |
 | `adagiodazzle.ponychat.net`  | San Francisco, USA |
+| `amythyststar.ponychat.net`  | New Jersey, USA    |
 | `ariablaze.ponychat.net`     | Singapore          |
-| `scootaloo.ponychat.net`     | Atlanta, USA       |
+| `flashsentry.ponychat.net`   | France             |
 | `sonatadusk.ponychat.net`    | London, UK         |
-| `sunsetshimmer.ponychat.net` | The Cloud          |
 
 ## IPv6 Support
 
-All of our round robins and DNS entries will have IPv6 addresses added and most 
-clients should select them automatically. If for some reason your IPv6 stack 
-has issues, please connect to `irc.ipv4.ponychat.net` instead of 
+All of our round robins and DNS entries will have IPv6 addresses added and most
+clients should select them automatically. If for some reason your IPv6 stack
+has issues, please connect to `irc.ipv4.ponychat.net` instead of
 `irc.ponychat.net`.
 
 ## BNC
 
-PonyChat offers a bnc server `bnc.ponychat.net` using ZNC. For more 
+PonyChat offers a bnc server `bnc.ponychat.net` using ZNC. For more
 information, see [here](/help/bnc).
