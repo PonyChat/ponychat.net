@@ -26,7 +26,7 @@ Not all servers will be accessable through DNS. It is suggested you have your cl
 | Server Name                  | Server Location    |
 |:---------------------------- |:------------------ |
 | `adagiodazzle.ponychat.net`  | San Francisco, USA |
-| `amythyststar.ponychat.net`  | New Jersey, USA    |
+| `amethyststar.ponychat.net`  | New Jersey, USA    |
 | `ariablaze.ponychat.net`     | Singapore          |
 | `flashsentry.ponychat.net`   | France             |
 | `sonatadusk.ponychat.net`    | London, UK         |
