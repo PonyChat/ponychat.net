@@ -1,5 +1,5 @@
 +++
-date = "2015-04-11T06:55:25-07:00"
+date = "2016-09-01T06:55:25-07:00"
 title = "Server Information"
 +++
 
@@ -38,5 +38,5 @@ has issues, please connect to `irc.ipv4.ponychat.net` instead of
 
 ## BNC
 
-PonyChat offers a bnc server `moondancer.ponychat.net` using Shout. For more 
+PonyChat offers a bnc server `bnc.ponychat.net` using ZNC. For more 
 information, see [here](/help/bnc).
